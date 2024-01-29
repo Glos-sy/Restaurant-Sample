@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    /* padding: 0px 20px; */
+    /* display: inline-block; */
+    background-color: grey;
+    border: 1px solid grey;
+    height: 30px;
+}
+
+nav h1 {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 23px 150px 23px 200px;
+    font-size: 50px;
+}
+
+nav a {
+    border: 1px solid red;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 20px 20px 20px 1px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav {
+    display: inline-block;
+    margin: 10px 5px 10px 10px;
+    /* border: 1px solid black; */
+    width: 98%;
+}
+
+nav button {
+    padding: 18px;
+    width: 200px;
+    background-color: white;
+    border-radius: 28px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 19px;
+    border-color: rgb(49, 48, 48);
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+nav button:hover {
+    box-shadow: 3px 5px 5px grey;
+}
+
+.home {
+    background-color: rgb(228, 226, 226);
+    margin-left: 400px;
+}
+
+main {
+    /* max-height: 80vh; */
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: 50em;
+}
+
+
+#outer-div {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+#inner-div button {
+    padding: 20px 35px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 30px;
+}
