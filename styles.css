@@ -17,20 +17,22 @@ header {
 
 nav h1 {
     display: inline-block;
-    border: 1px solid red;
-    padding: 23px 150px 23px 200px;
+    /* border: 1px solid red; */
+    padding: 10px 140px 10px 250px;
     font-size: 50px;
+    font-family: 'Courgette';
+    font-weight: 90;
 }
 
 nav a {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-decoration: none;
     color: black;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 20px 20px 20px 1px;
-    margin-right: 20px;
-    padding: 10px;
+    margin: 5px 20px 20px 1px;
+    /* margin-top: 5px; */
+    padding: 8px;
 }
 
 nav {
@@ -38,6 +40,7 @@ nav {
     margin: 10px 5px 10px 10px;
     /* border: 1px solid black; */
     width: 98%;
+    max-height: 100px;
 }
 
 nav button {
@@ -45,7 +48,7 @@ nav button {
     width: 200px;
     background-color: white;
     border-radius: 28px;
-    margin: 10px;
+    margin: 8px;
     font-weight: bolder;
     font-size: 19px;
     border-color: rgb(49, 48, 48);
@@ -57,9 +60,15 @@ nav button:hover {
     box-shadow: 3px 5px 5px grey;
 }
 
+button {
+    cursor: pointer;
+}
+
 .home {
-    background-color: rgb(228, 226, 226);
+    background-color: rgb(244, 244, 244);
     margin-left: 400px;
+    border-radius: 25px;
+    padding: 15px;
 }
 
 main {
@@ -69,16 +78,26 @@ main {
 img {
     position: relative;
     width: 100%;
-    height: 50em;
+    height: 51em;
 }
 
 
 #outer-div {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 40%;
 }
 
+#outer-div h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 120px;
+    font-weight: 50;
+    justify-content: center;
+}
+
+.outer-p {
+    color: rgb(40, 40, 40);
+}
 
 #inner-div button {
     padding: 20px 35px;
